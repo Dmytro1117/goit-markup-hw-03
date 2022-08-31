@@ -64,6 +64,10 @@ a {
 .section-hero {
     background-color: var(--hero-color);
     text-align: center;
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-team {
@@ -244,6 +248,7 @@ a {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 30px;
+    padding-top: 200px;
 }
 
 .work-title {
@@ -318,7 +323,7 @@ a {
     background-color: var(--accent-color);
     min-width: 216px;
     height: 50px;
-    padding: 10px 32px;
+    margin: 10px 32px;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
