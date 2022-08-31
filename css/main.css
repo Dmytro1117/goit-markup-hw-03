@@ -289,13 +289,14 @@ a {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 0;
+    margin: 20px 24px 0;
 }
 
 .project-name {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;  
+    margin: 0px 24px 20px;
 }
 
 .no-gap {
@@ -303,7 +304,6 @@ a {
 }
 
 .frame {
-    margin: 20px 24px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--border-color);
