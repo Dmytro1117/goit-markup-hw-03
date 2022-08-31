@@ -36,7 +36,7 @@ a {
 .box {
     margin: 0 auto;
     width: 1200px;
-    outline: 2px solid #2196F3;
+    outline: 2px solid var(--accent-color);
 }
 
 .container-header {
@@ -45,7 +45,11 @@ a {
 }
 
 .container-footer {
-    padding: 60px 15px;
+    padding: 60px 15px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid var(--accent-color);
 }
 
 .container-team {
@@ -103,15 +107,12 @@ a {
 
  .connection-nav {
     display: flex;
+    margin-left: auto;
  }
 
  .site-nav {
      display: flex;
      align-items: center;
- }
-
- .connection-nav {
-     margin-left: auto;
  }
 
  .box.container-header {
@@ -274,6 +275,7 @@ a {
     font-size: 16px;
     line-height: 1.19;
     margin-top: 30px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -282,6 +284,7 @@ a {
     line-height: 1.19;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .project-title {
@@ -289,7 +292,8 @@ a {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 24px 0;
+    margin: 0px 24px;
+    padding-top: 20px;
 }
 
 .project-name {
@@ -304,6 +308,7 @@ a {
 }
 
 .frame {
+    min-height: 110px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--border-color);
@@ -363,6 +368,10 @@ a {
 
 .footerr {
     background-color: var(--hero-color);
+    width: 1600px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adress {
@@ -370,12 +379,16 @@ a {
     font-style: normal;
     line-height: 1.7;
     text-decoration: none;
+    margin-top: 20px;
 }
+
 
 .contacts {
     line-height: 1.7;
     color: var(--transparent-color);
     font-style: normal;
+    margin-top: 9px;
+    display: block;
 }
 
 .footerr .logo {
