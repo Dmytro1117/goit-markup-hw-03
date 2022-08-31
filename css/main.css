@@ -70,7 +70,6 @@ a {
     background-color: var(--background-color);
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .section-title.visually-hidden,
@@ -299,6 +298,7 @@ a {
 }
 
 .frame {
+    margin: 20px 24px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--border-color);
