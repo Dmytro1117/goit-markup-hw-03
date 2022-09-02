@@ -36,20 +36,22 @@ a {
 .box {
     margin: 0 auto;
     width: 1200px;
-    outline: 2px solid var(--accent-color);
+    /* outline: 2px solid var(--accent-color); */
 }
 
 .container-header {
-    padding: 25px 15px;
+    padding: 25px 215px;
     height: 80px;
+    margin: 0 auto;
+    width: 1600px;
+    /* outline: 2px solid var(--accent-color); */
 }
 
 .container-footer {
-    padding: 60px 15px; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    outline: 2px solid var(--accent-color);
+    margin: 0 auto;
+    width: 1600px;
+    padding: 60px 215px;
+    /* outline: 2px solid var(--accent-color); */
 }
 
 .container-team {
@@ -115,9 +117,14 @@ a {
      align-items: center;
  }
 
- .box.container-header {
+.container-header {
     display: flex;
     align-items: center;
+    padding: 25px 215px;
+    height: 80px;
+    margin: 0 auto;
+    width: 1600px;
+    /* outline: 2px solid var(--accent-color); */
  }
 
  .ul-nav {
@@ -214,13 +221,15 @@ a {
 
 .link-connection {
     color: var(--primary-text-color);
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
+    align-items: center;
 }
 
 .link:hover,
@@ -247,8 +256,7 @@ a {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0px 452px 30px;
     padding-top: 200px;
 }
 
@@ -263,7 +271,7 @@ a {
 
 .work-text {
     line-height: 1.7;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
@@ -328,7 +336,6 @@ a {
     background-color: var(--accent-color);
     min-width: 216px;
     height: 50px;
-    margin: 10px 32px;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
@@ -369,7 +376,6 @@ a {
 .footerr {
     background-color: var(--hero-color);
     width: 1600px;
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -380,6 +386,7 @@ a {
     line-height: 1.7;
     text-decoration: none;
     margin-top: 20px;
+    display: inline-block;
 }
 
 
@@ -388,7 +395,7 @@ a {
     color: var(--transparent-color);
     font-style: normal;
     margin-top: 9px;
-    display: block;
+    display: inline-block;
 }
 
 .footerr .logo {
